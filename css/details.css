@@ -1,0 +1,137 @@
+.breadcrumb-item + .breadcrumb-item::before{
+	content: ">";
+}
+.breadcrumb-item {
+	font-size: 12px;
+	font-weight: bold;
+}
+._li{
+	width: 84px;
+	height: 84px;
+}
+._li:hover{
+	border: 1px solid #CECFCE;
+}
+.my_box{
+	width: 460px;
+	height: 460px;
+	overflow: hidden;
+	
+	/* border: solid; */
+}
+.my_img{
+	transition: transform 1s;
+}
+.my_img:hover{
+	transform: scale(1.1);
+}
+.my_h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.bg_gray{
+	background: -webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+}
+.my_font{
+	font-size: 14px;
+	font-weight: 500;
+	color: #666;
+}
+.my_price{
+	font-size :34px;
+	color: #0aa1ed;
+	font-family: Arial;
+}
+.heti{
+	   font-weight: 500;
+	    margin-left: 4px;
+	    margin-top: 8px;
+	    font-size: 15px;
+	    font-family: 黑体;
+}
+.m_btn{
+	background-color: #F5F5F5;	
+	border: 1px solid #000;
+	border-radius: 0;
+	font-size: 12px;
+	color: #666;
+}
+.m_btn:focus{
+	border: 1px solid #0AA1ED;
+	outline: 0;
+	box-shadow: 0 0 0 0 #000;
+}
+.m_btn:hover{
+	color: #0AA1ED;
+}
+.list_btn1{
+	width:2.2rem;
+	height: 2.2rem;
+	border: 0;
+	outline: 0;
+	font-weight: bolder;
+	line-height: 1;
+	transition: background-color 0.5s;
+}
+.list_btn1:hover{
+	cursor: pointer;
+}
+.list_btn1:focus{
+	outline: 0;
+	border: 0;
+}
+.w-3{
+	width: 2.2rem;
+	height: 2.2rem;
+}
+.my_shadow{
+	box-shadow: 0 -1px 8px 3px #ccc;
+}
+.btn_1{
+	width: 160px;
+	height: 50px;
+	color: #0AA1ED;
+	font-size: 20px;
+	border: 0;
+	background: -webkit-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+	margin-right: 16px;
+}
+.btn_1:focus{
+	border: 0;
+	outline: 0;
+}
+.btn_1:hover{
+	background: -webkit-linear-gradient(top, #e0e0e0 0%, #b3b3b3 100%);
+}
+.btn_2{
+	width: 160px;
+	    height: 50px;
+	    margin-right: 16px;
+	    text-align: center;
+	    border: 1px solid #ddd;
+	    font-size: 20px;
+			color: #FFF3CD;
+			    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+}
+.btn_2:focus{
+	border: 0;
+	outline: 0;
+}
+.btn_2:hover{
+	background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
+}
+.btn_3:hover{
+	background: -webkit-linear-gradient(top, #25a7e9 0%, #0998df 100%);
+}
+.btn_3{
+	border: 0;
+	width: 52px;
+	height: 50px;
+	color: #fff;
+	background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+	box-sizing: border-box;
+}
+.btn_3:focus{
+	border: 0;
+	outline: 0;
+}
